@@ -1,4 +1,4 @@
-{% set version = '2018.1' %}
+{% set version = "2020.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/turboEM_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/turboEM/turboEM_{{ version }}.tar.gz
-  sha256: 46d965a9477212e89f39979d6d7abc1aec2ef3ea9dde9831751611db9ba857f6
+  sha256: f5961873ed8a110704ca201a4d7d77e0f7423444365382b90e549d802b3d667c
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
