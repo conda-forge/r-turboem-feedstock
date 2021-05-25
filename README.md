@@ -3,7 +3,7 @@ About r-turboem
 
 Home: http://www.jhsph.edu/agingandhealth/People/Faculty_personal_pages/Varadhan.html
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-turboem-feedstock/blob/master/LICENSE.txt)
 
