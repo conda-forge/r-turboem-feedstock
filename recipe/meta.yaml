@@ -45,7 +45,7 @@ test:
 
 about:
   home: http://www.jhsph.edu/agingandhealth/People/Faculty_personal_pages/Varadhan.html
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Algorithms for accelerating the convergence of slow, monotone sequences from smooth,
     contraction mapping such as the EM and MM algorithms. It can be used to accelerate
     any smooth, linearly convergent acceleration scheme.  A tutorial style introduction
