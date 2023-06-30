@@ -1,11 +1,11 @@
-About r-turboem
-===============
+About r-turboem-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-turboem-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.jhsph.edu/agingandhealth/People/Faculty_personal_pages/Varadhan.html
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-turboem-feedstock/blob/main/LICENSE.txt)
 
 Summary: Algorithms for accelerating the convergence of slow, monotone sequences from smooth, contraction mapping such as the EM and MM algorithms. It can be used to accelerate any smooth, linearly convergent acceleration scheme.  A tutorial style introduction to this package is available in a vignette on the CRAN download page or, when the package is loaded in an R session, with vignette("turboEM").
 
