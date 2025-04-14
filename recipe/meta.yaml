@@ -1,4 +1,4 @@
-{% set version = "2021.1" %}
+{% set version = "2025.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/turboEM_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/turboEM/turboEM_{{ version }}.tar.gz
-  sha256: 9e4ace8ed211d8c12bb3f4fd917e105553193661c23124c104c808453102439e
+  sha256: e07732d781020c0ba2ec499a6227b1afec6468b198c81fb59554f8f07421a0b0
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
